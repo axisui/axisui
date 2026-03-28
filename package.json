@@ -1,0 +1,25 @@
+{
+  "name": "axisui",
+  "version": "0.0.1-pre-alpha",
+  "description": "It eliminates the flaws of our competitors and is utility-first CSS framework.",
+  "scripts": {
+    "build": "postcss src/main.css -o dist/axisui.css && postcss dist/axisui.css -u cssnano -o dist/axisui.min.css",
+    "watch": "postcss src/main.css -o dist/axisui.css -w"
+  },
+  "keywords": [
+    "frontend",
+    "framework",
+    "css",
+    "responsive",
+    "utility-first",
+    "axisui"
+  ],
+  "author": "AxisUI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "cssnano": "^7.1.3",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1"
+  }
+}

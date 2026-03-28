@@ -1,0 +1,20 @@
+# Dependencies:
+node_modules/
+.DS_Store
+
+# Build outputs:
+dist/
+.vitepress/dist/
+
+# Local logs and temporary files:
+*.log
+npm-debug.log*
+.env
+.cache/
+
+# IDE Settings:
+.vscode/
+.idea/
+
+# Notes - Notes taken during project development:
+MYNOTES.md
