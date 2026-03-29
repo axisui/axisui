@@ -1,6 +1,6 @@
 {
   "name": "axisui",
-  "version": "0.1.0-alpha",
+  "version": "0.1.0-alpha.1",
   "description": "It eliminates the flaws of our competitors and is utility-first CSS framework.",
   "scripts": {
     "build": "postcss src/main.css -o dist/axisui.css && postcss dist/axisui.css -u cssnano -o dist/axisui.min.css",

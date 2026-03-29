@@ -1,0 +1,190 @@
+/* =====================================================
+   BORDER RADIUS UTILITIES — PROFESSIONAL SYSTEM
+   Designed for framework-level flexibility
+   Compatible with variables.css radius scale
+
+   Recommended radius scale in variables.css:
+
+   --radius-none: 0;
+   --radius-xs: 2px;
+   --radius-sm: 4px;
+   --radius-md: 6px;
+   --radius-lg: 8px;
+   --radius-xl: 12px;
+   --radius-2xl: 16px;
+   --radius-3xl: 24px;
+   --radius-4xl: 32px;
+   --radius-full: 9999px;
+===================================================== */
+
+/* =====================================================
+   ALL CORNERS
+===================================================== */
+
+.border-none {
+    border-radius: var(--radius-none);
+}
+
+.border-xs {
+    border-radius: var(--radius-xs);
+}
+
+.border-sm {
+    border-radius: var(--radius-sm);
+}
+
+.border-md {
+    border-radius: var(--radius-md);
+}
+
+.border-lg {
+    border-radius: var(--radius-lg);
+}
+
+.border-xl {
+    border-radius: var(--radius-xl);
+}
+
+.border-2xl {
+    border-radius: var(--radius-2xl);
+}
+
+.border-3xl {
+    border-radius: var(--radius-3xl);
+}
+
+.border-4xl {
+    border-radius: var(--radius-4xl);
+}
+
+.border-full {
+    border-radius: var(--radius-full);
+}
+
+/* =====================================================
+   TOP / RIGHT / BOTTOM / LEFT SIDES
+===================================================== */
+
+.border-t-none {
+    border-top-left-radius: var(--radius-none);
+    border-top-right-radius: var(--radius-none);
+}
+
+.border-t-sm {
+    border-top-left-radius: var(--radius-sm);
+    border-top-right-radius: var(--radius-sm);
+}
+
+.border-t-md {
+    border-top-left-radius: var(--radius-md);
+    border-top-right-radius: var(--radius-md);
+}
+
+.border-t-lg {
+    border-top-left-radius: var(--radius-lg);
+    border-top-right-radius: var(--radius-lg);
+}
+
+.border-r-lg {
+    border-top-right-radius: var(--radius-lg);
+    border-bottom-right-radius: var(--radius-lg);
+}
+
+.border-b-lg {
+    border-bottom-left-radius: var(--radius-lg);
+    border-bottom-right-radius: var(--radius-lg);
+}
+
+.border-l-lg {
+    border-top-left-radius: var(--radius-lg);
+    border-bottom-left-radius: var(--radius-lg);
+}
+
+/* =====================================================
+   INDIVIDUAL CORNERS
+===================================================== */
+
+.border-tl-sm {
+    border-top-left-radius: var(--radius-sm);
+}
+
+.border-tr-sm {
+    border-top-right-radius: var(--radius-sm);
+}
+
+.border-br-sm {
+    border-bottom-right-radius: var(--radius-sm);
+}
+
+.border-bl-sm {
+    border-bottom-left-radius: var(--radius-sm);
+}
+
+.border-tl-md {
+    border-top-left-radius: var(--radius-md);
+}
+
+.border-tr-md {
+    border-top-right-radius: var(--radius-md);
+}
+
+.border-br-md {
+    border-bottom-right-radius: var(--radius-md);
+}
+
+.border-bl-md {
+    border-bottom-left-radius: var(--radius-md);
+}
+
+.border-tl-lg {
+    border-top-left-radius: var(--radius-lg);
+}
+
+.border-tr-lg {
+    border-top-right-radius: var(--radius-lg);
+}
+
+.border-br-lg {
+    border-bottom-right-radius: var(--radius-lg);
+}
+
+.border-bl-lg {
+    border-bottom-left-radius: var(--radius-lg);
+}
+
+/* =====================================================
+   SPECIAL SHAPES
+===================================================== */
+
+/* Perfect circle (avatar, icon button) */
+.circle {
+    border-radius: 50%;
+}
+
+/* Pill shape (button, badge) */
+.pill {
+    border-radius: var(--radius-full);
+}
+
+/* =====================================================
+   COMPONENT HELPERS
+===================================================== */
+
+/* Card default */
+.card-radius {
+    border-radius: var(--radius-lg);
+}
+
+/* Modal default */
+.modal-radius {
+    border-radius: var(--radius-xl);
+}
+
+/* Button default */
+.button-radius {
+    border-radius: var(--radius-md);
+}
+
+/* =====================================================
+   END — BORDER RADIUS SYSTEM
+===================================================== */
