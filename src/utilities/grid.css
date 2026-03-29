@@ -1,0 +1,288 @@
+/* =========================================================
+    GRID UTILITIES
+========================================================= */
+/* Grid Container */
+
+.grid {
+    display: grid;
+}
+
+.inline-grid {
+    display: inline-grid;
+}
+
+/* Grid Template Columns (1–12) */
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-cols-7 {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.grid-cols-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.grid-cols-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+
+.grid-cols-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.grid-cols-11 {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+
+.grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+/* Grid Template Rows */
+
+.grid-rows-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.grid-rows-5 {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+
+.grid-rows-6 {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
+/* Gap Utilities (aligned with spacing scale) */
+
+.grid-gap-0 {
+    gap: 0;
+}
+
+.grid-gap-1 {
+    gap: var(--space-1);
+}
+
+.grid-gap-2 {
+    gap: var(--space-2);
+}
+
+.grid-gap-3 {
+    gap: var(--space-3);
+}
+
+.grid-gap-4 {
+    gap: var(--space-4);
+}
+
+.grid-gap-5 {
+    gap: var(--space-5);
+}
+
+.grid-gap-6 {
+    gap: var(--space-6);
+}
+
+.grid-gap-7 {
+    gap: var(--space-7);
+}
+
+.grid-gap-8 {
+    gap: var(--space-8);
+}
+
+.grid-gap-9 {
+    gap: var(--space-9);
+}
+
+.grid-gap-10 {
+    gap: var(--space-10);
+}
+
+.grid-gap-11 {
+    gap: var(--space-11);
+}
+
+.grid-gap-12 {
+    gap: var(--space-12);
+}
+
+.grid-gap-13 {
+    gap: var(--space-13);
+}
+
+.grid-gap-14 {
+    gap: var(--space-14);
+}
+
+.grid-gap-15 {
+    gap: var(--space-15);
+}
+
+.grid-gap-16 {
+    gap: var(--space-16);
+}
+
+/* Column Span */
+
+.col-span-1 {
+    grid-column: span 1 / span 1;
+}
+
+.col-span-2 {
+    grid-column: span 2 / span 2;
+}
+
+.col-span-3 {
+    grid-column: span 3 / span 3;
+}
+
+.col-span-4 {
+    grid-column: span 4 / span 4;
+}
+
+.col-span-5 {
+    grid-column: span 5 / span 5;
+}
+
+.col-span-6 {
+    grid-column: span 6 / span 6;
+}
+
+.col-span-7 {
+    grid-column: span 7 / span 7;
+}
+
+.col-span-8 {
+    grid-column: span 8 / span 8;
+}
+
+.col-span-9 {
+    grid-column: span 9 / span 9;
+}
+
+.col-span-10 {
+    grid-column: span 10 / span 10;
+}
+
+.col-span-11 {
+    grid-column: span 11 / span 11;
+}
+
+.col-span-12 {
+    grid-column: span 12 / span 12;
+}
+
+/* Row Span */
+
+.row-span-1 {
+    grid-row: span 1 / span 1;
+}
+
+.row-span-2 {
+    grid-row: span 2 / span 2;
+}
+
+.row-span-3 {
+    grid-row: span 3 / span 3;
+}
+
+.row-span-4 {
+    grid-row: span 4 / span 4;
+}
+
+.row-span-5 {
+    grid-row: span 5 / span 5;
+}
+
+.row-span-6 {
+    grid-row: span 6 / span 6;
+}
+
+/* Justify Items */
+
+.justify-items-start {
+    justify-items: start;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.justify-items-end {
+    justify-items: end;
+}
+
+.justify-items-stretch {
+    justify-items: stretch;
+}
+
+/* Align Items */
+
+.items-start {
+    align-items: start;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-end {
+    align-items: end;
+}
+
+.items-stretch {
+    align-items: stretch;
+}
+
+/* Place Items (shortcut utilities) */
+
+.place-center {
+    place-items: center;
+}
+
+.place-start {
+    place-items: start;
+}
+
+.place-end {
+    place-items: end;
+}
+
+/* =====================================================
+    END — GRID SYSTEM
+===================================================== */
