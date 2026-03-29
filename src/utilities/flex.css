@@ -1,0 +1,361 @@
+/* =====================================================
+    FLEX DIRECTION
+===================================================== */
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* =====================================================
+    FLEX WRAP
+===================================================== */
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* =====================================================
+    JUSTIFY CONTENT (MAIN AXIS)
+===================================================== */
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+/* =====================================================
+    ALIGN ITEMS (CROSS AXIS)
+===================================================== */
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-baseline {
+    align-items: baseline;
+}
+
+.items-stretch {
+    align-items: stretch;
+}
+
+/* =====================================================
+    ALIGN CONTENT (MULTI-LINE FLEX)
+===================================================== */
+
+.content-start {
+    align-content: flex-start;
+}
+
+.content-end {
+    align-content: flex-end;
+}
+
+.content-center {
+    align-content: center;
+}
+
+.content-between {
+    align-content: space-between;
+}
+
+.content-around {
+    align-content: space-around;
+}
+
+.content-evenly {
+    align-content: space-evenly;
+}
+
+.content-stretch {
+    align-content: stretch;
+}
+
+/* =====================================================
+    ALIGN SELF (INDIVIDUAL ITEM CONTROL)
+===================================================== */
+
+.self-auto {
+    align-self: auto;
+}
+
+.self-start {
+    align-self: flex-start;
+}
+
+.self-end {
+    align-self: flex-end;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.self-baseline {
+    align-self: baseline;
+}
+
+.self-stretch {
+    align-self: stretch;
+}
+
+/* =====================================================
+    FLEX GROW
+===================================================== */
+
+.flex-grow-0 {
+    flex-grow: 0;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+/* =====================================================
+    FLEX SHRINK
+===================================================== */
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+    flex-shrink: 1;
+}
+
+/* =====================================================
+    FLEX BASIS
+===================================================== */
+
+.flex-basis-auto {
+    flex-basis: auto;
+}
+
+.flex-basis-0 {
+    flex-basis: 0;
+}
+
+.flex-basis-100 {
+    flex-basis: 100%;
+}
+
+/* =====================================================
+    FLEX SHORTHAND HELPERS
+===================================================== */
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+}
+
+.flex-initial {
+    flex: 0 1 auto;
+}
+
+.flex-none {
+    flex: none;
+}
+
+/* =====================================================
+    ORDER UTILITIES
+===================================================== */
+
+.order-0 {
+    order: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-first {
+    order: -9999;
+}
+
+.order-last {
+    order: 9999;
+}
+
+.order-none {
+    order: 0;
+}
+
+/* =====================================================
+    FLEX GAP (USES SPACING SCALE)
+===================================================== */
+
+.flex-gap-0 {
+    gap: var(--space-0);
+}
+
+.flex-gap-1 {
+    gap: var(--space-1);
+}
+
+.flex-gap-2 {
+    gap: var(--space-2);
+}
+
+.flex-gap-3 {
+    gap: var(--space-3);
+}
+
+.flex-gap-4 {
+    gap: var(--space-4);
+}
+
+.flex-gap-5 {
+    gap: var(--space-5);
+}
+
+.flex-gap-6 {
+    gap: var(--space-6);
+}
+
+.flex-gap-7 {
+    gap: var(--space-7);
+}
+
+.flex-gap-8 {
+    gap: var(--space-8);
+}
+
+.flex-gap-9 {
+    gap: var(--space-9);
+}
+
+.flex-gap-10 {
+    gap: var(--space-10);
+}
+
+.flex-gap-11 {
+    gap: var(--space-11);
+}
+
+.flex-gap-12 {
+    gap: var(--space-12);
+}
+
+.flex-gap-13 {
+    gap: var(--space-13);
+}
+
+.flex-gap-14 {
+    gap: var(--space-14);
+}
+
+.flex-gap-15 {
+    gap: var(--space-15);
+}
+
+.flex-gap-16 {
+    gap: var(--space-16);
+}
+
+/* =====================================================
+    FLEX ALIGNMENT SHORTCUTS (COMMON PATTERNS)
+===================================================== */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-x {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center-y {
+    display: flex;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* =====================================================
+    END — FLEX SYSTEM
+===================================================== */
