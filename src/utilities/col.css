@@ -1,0 +1,206 @@
+/* ========================================
+    BASE COLUMN
+======================================== */
+
+.col {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+
+/* ========================================
+    AUTO WIDTH
+======================================== */
+
+.col-auto {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+
+/* ========================================
+    FIXED GRID (12 COLUMN SYSTEM)
+======================================== */
+
+/* 1 / 12 */
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.333333%;
+}
+
+/* 2 / 12 */
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.666667%;
+}
+
+/* 3 / 12 */
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+/* 4 / 12 */
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.333333%;
+}
+
+/* 5 / 12 */
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.666667%;
+}
+
+/* 6 / 12 */
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+/* 7 / 12 */
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.333333%;
+}
+
+/* 8 / 12 */
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.666667%;
+}
+
+/* 9 / 12 */
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+/* 10 / 12 */
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.333333%;
+}
+
+/* 11 / 12 */
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.666667%;
+}
+
+/* 12 / 12 */
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+/* ========================================
+    GROW / SHRINK UTILITIES
+======================================== */
+
+.col-grow {
+    flex-grow: 1;
+}
+
+.col-grow-0 {
+    flex-grow: 0;
+}
+
+.col-shrink {
+    flex-shrink: 1;
+}
+
+.col-shrink-0 {
+    flex-shrink: 0;
+}
+
+
+/* ========================================
+    OFFSET SYSTEM
+======================================== */
+
+.offset-1 {
+    margin-left: 8.333333%;
+}
+
+.offset-2 {
+    margin-left: 16.666667%;
+}
+
+.offset-3 {
+    margin-left: 25%;
+}
+
+.offset-4 {
+    margin-left: 33.333333%;
+}
+
+.offset-5 {
+    margin-left: 41.666667%;
+}
+
+.offset-6 {
+    margin-left: 50%;
+}
+
+.offset-7 {
+    margin-left: 58.333333%;
+}
+
+.offset-8 {
+    margin-left: 66.666667%;
+}
+
+.offset-9 {
+    margin-left: 75%;
+}
+
+.offset-10 {
+    margin-left: 83.333333%;
+}
+
+.offset-11 {
+    margin-left: 91.666667%;
+}
+
+
+/* ========================================
+    ALIGN SELF
+======================================== */
+
+.self-auto {
+    align-self: auto;
+}
+
+.self-start {
+    align-self: flex-start;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.self-end {
+    align-self: flex-end;
+}
+
+.self-stretch {
+    align-self: stretch;
+}
+
+.self-baseline {
+    align-self: baseline;
+}
